@@ -24,3 +24,16 @@ if (numeroDez == stringDez) {
 } else {
     console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
 }
+
+// Refatorando o algoritmo utlizando operadores ternários
+
+const numUm = 1
+const strUm = '1'
+const numTrinta = 30
+const strTrinta = '30'
+const numDez = 10
+const strDez = '10'
+
+console.log(numUm == strUm ? 'As variáveis numUm e strUm têm o mesmo valor, mas tipos diferentes.' : 'As variáveis numeroUm e stringUm não têm o mesmo valor.');
+console.log(numTrinta === strTrinta ? 'As variáveis numTrinta e strTrinta têm o mesmo valor e o mesmo tipo.' : 'As variáveis numeroTrinta e stringTrinta não têm o mesmo tipo.');
+console.log(numDez == strDez ? 'As variáveis numDez e strDez têm o mesmo valor, mas tipos diferentes.' : 'As variáveis numeroDez e stringDez não têm o mesmo valor.');
