@@ -1,5 +1,5 @@
 var nome = prompt("Qual seu nome? ");
-var idade = prompt("Qual seu idade? ");
-var linguagem = prompt("Qual linguagem você está estudando? ");
+var idade = prompt("Qual sua idade? ");
+var linguagem = prompt("Qual a linguagem que você está estudando? ");
 
-alert("Olá " + [nome] + ", você tem " + [idade] + " anos e está aprendendo " + [linguagem] + ", que legal!");
+alert(`Olá ${nome}, você tem ${idade} anos e está estudando ${linguagem}, que legal!`);
